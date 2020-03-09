@@ -1,3 +1,19 @@
+
+huggingfac=2.5.1
+用customized corpus 训练语言模型
+
+准备字典 和数据  见 prepare_Data_dict/get_data_dict.py
+
+训练  run_language_modeling_v0306.py
+
+预测 run_generation_v0306.py
+
+
+
+
+
+
+
 prompt="滴滴百度"
 
 
