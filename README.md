@@ -16,13 +16,14 @@ huggingface==2.5.1
 
 
 
-10个epoch效果如下
+##10个epoch效果如下
 
+输入
 ```prompt="滴滴百度"```
 
 
 03/09/2020 11:45:23 - INFO - transformers.modeling_utils -   loading weights file ./output/pytorch_model.bin
-03/09/2020 11:45:28 - INFO - __main__ -   Namespace(device=device(type='cuda'), k=0, length=100, model_name_or_path='./output/', model_type='gpt2', n_gpu=1, no_cuda=False, num_return_sequences=20, p=0.9, padding_text='', prompt='滴滴百度', repetition_penalty=1.0, seed=42, stop_token=None, temperature=1.0, xlm_language='')
+03/09/2020 11:45:28 - INFO - __main__ -   Namespace(device=device(type='cuda'), k=0, ```length=100```, model_name_or_path='./output/', model_type='gpt2', n_gpu=1, no_cuda=False, ```num_return_sequences=20```, p=0.9, padding_text='', prompt='滴滴百度', repetition_penalty=1.0, seed=42, stop_token=None, temperature=1.0, xlm_language='')
 
 === GENERATED SEQUENCE 1 ===
 滴滴百度布局互联网业务，布局百度，持续发力AI技术，助力企业构建生态和企业生态圈。
